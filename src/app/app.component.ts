@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { environment } from 'src/environments/environment';
   styles: []
 })
 export class AppComponent {
-  title = environment.appName + ' HELLO WORLD';
+
 }
