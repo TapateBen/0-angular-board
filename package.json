@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build:prod": "ng build --prod",
-    "build:pub": "ng build --prod --output-path docs --base-href https://trainingit-introangular-ed2.github.io/angular-board/",
+    "build:pub": "ng build --prod --output-path docs --base-href https://tapateben.github.io/0-angular-board/",
     "e2e": "ng e2e",
     "http-server": "http-server ./dist/angular-board/ -c-1 -p4271 -a localhost -o",
     "lint": "ng lint",
@@ -11,7 +11,7 @@
     "pub": "npm run build:pub && npm run push",
     "push": "git add * && git commit -m 'pub' && git push",
     "start:prod": "npm run build:prod && npm run http-server",
-    "start": "ng serve -o --port 4270",
+    "start": "ng serve --port 4270",
     "test": "ng test"
   },
   "private": true,
