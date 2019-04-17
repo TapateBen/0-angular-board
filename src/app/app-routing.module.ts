@@ -17,6 +17,14 @@ const routes: Routes = [
     loadChildren: './about/about.module#AboutModule'
   },
   {
+    path: 'car',
+    loadChildren: './car/car.module#CarModule'
+  },
+  {
+    path: 'converter',
+    loadChildren: './converter/converter.module#ConverterModule'
+  },
+  {
     path: 'heroes',
     component: HeroesComponent
   },
@@ -34,4 +42,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
